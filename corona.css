@@ -1,0 +1,29 @@
+body{
+  margin:0;
+  padding: 0;
+  background:#1D197B;
+}
+.corona{
+  display: flex;
+  width: 100vh;
+  height: 75vh;
+  background: url('https://api.wbez.org/v2/images/84144292-9cd6-4c51-87ed-cc190b993fd2.jpg?width=900&height=518&mode=FILL');
+  margin: 100px auto;
+  animation: slide 2s infinite
+}
+@keyframes slide{
+   25%{
+     background: url('https://api.wbez.org/v2/images/84144292-9cd6-4c51-87ed-cc190b993fd2.jpg?width=900&height=518&mode=FILL');
+   }
+   50%{
+     background: url('https://cdn.statcdn.com/Infographic/images/normal/20634.jpeg');
+   }
+   75%{
+     background: url('https://ichef.bbci.co.uk/news/410/cpsprodpb/14500/production/_111400238_coronavirus_global_area_chart_jh_23mar-nc.png');
+   }
+   100%{
+     background: url('https://i.insider.com/5e9da09adcd88c5fbe412c04?width=600&format=jpeg&auto=webp');
+   }
+
+
+                

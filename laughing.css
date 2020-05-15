@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  padding: 0;
+  background:#1D197B;
+}
+
+.laughing{
+  display: flex;
+  width: 100vh;
+  height: 75vh;
+  background: url('https://i.ytimg.com/vi/Q1BKjMSkGy4/maxresdefault.jpg');
+  margin: 100px auto;
+  animation: slide 2s infinite
+}
+@keyframes slide{
+   25%{
+     background: url('https://i.ytimg.com/vi/Q1BKjMSkGy4/maxresdefault.jpg');
+   }
+   50%{
+     background: url('https://i.pinimg.com/originals/1f/a8/c4/1fa8c42cb9d456a86ffe51c95f09fb9b.jpg');
+   }
+   75%{
+     background: url('https://tedideas.files.wordpress.com/2019/06/featured_art_istock_baby.jpg');
+   }
+   100%{
+     background: url('https://ichef.bbci.co.uk/wwfeatures/live/976_549/images/live/p0/2y/7j/p02y7jyt.jpg');
+   }

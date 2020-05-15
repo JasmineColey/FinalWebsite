@@ -1,0 +1,28 @@
+body{
+  margin:0;
+  padding: 0;
+  background:#1D197B;
+}
+
+
+ .cat{
+     display: flex;
+     width: 100vh;
+     height: 75vh;
+     background: url('https://www.hartz.com/wp-content/uploads/2016/12/3270098059_hartz_just_for_cats_kitty_frenzy_cat_toy_life_650x650.png');
+     margin: 100px auto;
+     animation: slide 2s infinite
+   }
+   @keyframes slide{
+      25%{
+        background: url('https://www.hartz.com/wp-content/uploads/2016/12/3270098059_hartz_just_for_cats_kitty_frenzy_cat_toy_life_650x650.png');
+      }
+      50%{
+        background: url('https://images-na.ssl-images-amazon.com/images/I/81fZ%2BfJOHPL._AC_SY355_.jpg');
+      }
+      75%{
+        background: url('https://www.dhresource.com/0x0/f2/albu/g9/M00/9C/B0/rBVaWFwZuyOAbm8dAAGZKAv_HRI104.jpg');
+      }
+      100%{
+        background: url('https://ae01.alicdn.com/kf/HTB1F_WlcGmgSKJjSsplq6yICpXaE/Arch-Pet-Cat-Self-Groomer-With-Round-Fleece-Base-Cat-Toy-Brush-Toys-For-Pets-Scratching.jpg');
+      }

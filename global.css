@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  padding: 0;
+  background:#1D197B;
+}
+
+.global{
+  display: flex;
+  width: 100vh;
+  height: 75vh;
+  background: url('https://img.etimg.com/thumb/width-640,height-480,imgsize-653036,resizemode-1,msid-66862392/why-global-warming-is-so-harmful-for-your-heart-and-kidneys.jpg');
+  margin: 100px auto;
+  animation: slide 2s infinite
+}
+@keyframes slide{
+   25%{
+     background: url('https://img.etimg.com/thumb/width-640,height-480,imgsize-653036,resizemode-1,msid-66862392/why-global-warming-is-so-harmful-for-your-heart-and-kidneys.jpg');
+   }
+   50%{
+     background: url('https://api.timeforkids.com/wp-content/uploads/2018/08/GlobalWarming-HERO.jpg');
+   }
+   75%{
+     background: url('https://media1.s-nbcnews.com/j/newscms/2018_31/2514836/180730-greece-fire-ac-1047p_0be348122af0101e78d01be33ba2c127.fit-760w.jpg');
+   }
+   100%{
+     background: url('https://media2.s-nbcnews.com/i/newscms/2018_41/2597866/181009-german-power-plant-ew-946a_3a8cb6532a691d7ce04064d09c1dac80.jpg');
+   }

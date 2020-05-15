@@ -1,5 +1,5 @@
 body {
-background-image: url(https://media.giphy.com/media/SX71qs3TDxVkvbLJ4o/giphy.gif);
+background-image: url('https://media.giphy.com/media/SX71qs3TDxVkvbLJ4o/giphy.gif');
 background-size: cover;
 margin: 0px;}
 
@@ -42,28 +42,75 @@ width: 100%;
   color: black;
 }
 
-
+.grid {
+  display: grid;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  grid-gap: 2rem;
+}
 
 .item{
   background-color: #0000FF	;
   border-radius: 5px;
   padding:0px;
-  font-family: 'Roboto Mono';
   font-size: 20px;
-
-
+  text-align: center;
 
 }
 .item1{
   grid-column: span 1;
   grid-row: span 3;
+  font-family: 'Baloo 2', cursive;
 }
 
-.grid {
-  display: grid;
-  justify-content: space-evenly;
-  align-items: center;
-  grid-template-columns: 150px 150px 150px;
-  grid-template-rows: 150px 150px 150px;
-  grid-gap: 3rem;
+.item2{
+  grid-column: span 1;
+  grid-row: span 3;
+  font-family: 'Anton', sans-serif;
+}
+
+.item3{
+  grid-column: span 1;
+  grid-row: span 3;
+  font-family: 'Dancing Script', cursive;
+}
+
+.item4{
+  grid-column: span 1;
+  grid-row: span 3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.item5{
+  grid-column: span 1;
+  grid-row: span 3;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.item6{
+  grid-column: span 1;
+  grid-row: span 3;
+  font-family: 'Acme', sans-serif;
+}
+
+.item7{
+  grid-column: span 1;
+  grid-row: span 3;
+  font-family: 'Amatic SC', cursive;
+}
+
+.item8{
+  grid-column: span 1;
+  grid-row: span 3;
+  font-family: 'Righteous', cursive;
+}
+
+.item9{
+  grid-column: span 1;
+  grid-row: span 3;
+  font-family: 'Caveat', cursive;
+}
 }

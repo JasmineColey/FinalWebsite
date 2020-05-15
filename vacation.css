@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  padding: 0;
+  background:#1D197B;
+}
+
+.vacation{
+  display: flex;
+  width: 100vh;
+  height: 75vh;
+  background: url('https://www.libertytravel.com/sites/default/files/styles/full_size/public/luxury-hero%20%281%29.jpg?itok=eHbThPZQ');
+  margin: 100px auto;
+  animation: slide 2s infinite
+}
+@keyframes slide{
+   25%{
+     background: url('https://www.libertytravel.com/sites/default/files/styles/full_size/public/luxury-hero%20%281%29.jpg?itok=eHbThPZQ');
+   }
+   50%{
+     background: url('https://www.jetsetter.com/uploads/sites/7/2018/04/c1tkXg5q-1380x1035.jpeg');
+   }
+   75%{
+     background: url('https://www.jetsetter.com/uploads/sites/7/2018/04/TToEelyJ-1380x1035.jpeg');
+   }
+   100%{
+     background: url('https://cdn.sandals.com/sandals/v12/images/resorts/sbd/home/main-slider/pool-with-swim-up-bar-beach.jpg');
+   }

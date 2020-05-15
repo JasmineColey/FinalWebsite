@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  padding: 0;
+  background:#1D197B;
+}
+
+.cookie{
+  display: flex;
+  width: 100vh;
+  height: 75vh;
+  background: url('https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2017/02/Chocolate-Chip-Cookies.jpg?resize=1360%2C2040&ssl=1');
+  margin: 100px auto;
+  animation: slide 2s infinite
+}
+@keyframes slide{
+   25%{
+     background: url('https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2017/02/Chocolate-Chip-Cookies.jpg?resize=1360%2C2040&ssl=1');
+   }
+   50%{
+     background: url('https://i.pinimg.com/originals/f5/f2/4c/f5f24c64880a632d0028e883c6b67bfc.jpg');
+   }
+   75%{
+     background: url('https://i.pinimg.com/originals/43/05/5d/43055d9463fcbf66456313bae6726ea3.png');
+   }
+   100%{
+     background: url('https://i.pinimg.com/originals/ca/54/8f/ca548fab385ebbbf8d53a33d305a088f.png');
+   }

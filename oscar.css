@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  padding: 0;
+  background:#1D197B;
+}
+
+.oscar{
+  display: flex;
+  width: 100vh;
+  height: 75vh;
+  background: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2020/01/09161409/46d9d8c585f16e695cd7808bce37ec961dc56e720b3404be4c7d82422c6e5231.jpg');
+  margin: 100px auto;
+  animation: slide 2s infinite
+}
+@keyframes slide{
+   25%{
+     background: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2020/01/09161409/46d9d8c585f16e695cd7808bce37ec961dc56e720b3404be4c7d82422c6e5231.jpg');
+   }
+   50%{
+     background: url('https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_.jpg');
+   }
+   75%{
+     background: url('https://www.trentarthur.ca/wp-content/uploads/2019/02/Green-Book-2018-Poster-HD-.jpg');
+   }
+   100%{
+     background: url('https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UY1200_CR90,0,630,1200_AL_.jpg');
+   }

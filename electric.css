@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  padding: 0;
+  background:#1D197B;
+}
+
+.electric{
+  display: flex;
+  width: 100vh;
+  height: 75vh;
+  background: url('https://article.images.consumerreports.org/f_auto/prod/content/dam/CRO%20Images%202019/Cars/December/CR-Cars-InlineHero-Ford-Mustang-Mach-E-Night-12-19');
+  margin: 100px auto;
+  animation: slide 2s infinite
+}
+@keyframes slide{
+   25%{
+     background: url('https://article.images.consumerreports.org/f_auto/prod/content/dam/CRO%20Images%202019/Cars/December/CR-Cars-InlineHero-Ford-Mustang-Mach-E-Night-12-19');
+   }
+   50%{
+     background: url('https://cdn.theatlantic.com/thumbor/Api9Z0i14pPlHGD_XS3WiYCxwgc=/0x132:6405x3734/720x405/media/img/mt/2019/06/AP_18212620286257/original.jpg');
+   }
+   75%{
+     background: url('https://specials-images.forbesimg.com/imageserve/1140760630/960x0.jpg?fit=scale');
+   }
+   100%{
+     background: url('https://cdn1.carbuyer.co.uk/sites/carbuyer_d7/files/2017/11/tesla-roadster-1_0.jpg');
+   }
