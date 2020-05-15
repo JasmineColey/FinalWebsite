@@ -1,0 +1,201 @@
+body{
+  margin:0;
+  padding: 0;
+  background:#1D197B;
+}
+.corona{
+  display: flex;
+  width: 100vh;
+  height: 75vh;
+  background: url('https://api.wbez.org/v2/images/84144292-9cd6-4c51-87ed-cc190b993fd2.jpg?width=900&height=518&mode=FILL');
+  margin: 100px auto;
+  animation: slide 2s infinite
+}
+@keyframes slide{
+   25%{
+     background: url('https://api.wbez.org/v2/images/84144292-9cd6-4c51-87ed-cc190b993fd2.jpg?width=900&height=518&mode=FILL');
+   }
+   50%{
+     background: url('https://cdn.statcdn.com/Infographic/images/normal/20634.jpeg');
+   }
+   75%{
+     background: url('https://ichef.bbci.co.uk/news/410/cpsprodpb/14500/production/_111400238_coronavirus_global_area_chart_jh_23mar-nc.png');
+   }
+   100%{
+     background: url('https://i.insider.com/5e9da09adcd88c5fbe412c04?width=600&format=jpeg&auto=webp');
+   }
+
+   .cookie{
+     display: flex;
+     width: 100vh;
+     height: 75vh;
+     background: url('https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2017/02/Chocolate-Chip-Cookies.jpg?resize=1360%2C2040&ssl=1');
+     margin: 100px auto;
+     animation: slide 2s infinite
+   }
+   @keyframes slide{
+      25%{
+        background: url('https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2017/02/Chocolate-Chip-Cookies.jpg?resize=1360%2C2040&ssl=1');
+      }
+      50%{
+        background: url('https://i.pinimg.com/originals/f5/f2/4c/f5f24c64880a632d0028e883c6b67bfc.jpg');
+      }
+      75%{
+        background: url('https://i.pinimg.com/originals/43/05/5d/43055d9463fcbf66456313bae6726ea3.png');
+      }
+      100%{
+        background: url('https://i.pinimg.com/originals/ca/54/8f/ca548fab385ebbbf8d53a33d305a088f.png');
+      }
+}
+      .cat{
+        display: flex;
+        width: 100vh;
+        height: 75vh;
+        background: url('https://www.hartz.com/wp-content/uploads/2016/12/3270098059_hartz_just_for_cats_kitty_frenzy_cat_toy_life_650x650.png');
+        margin: 100px auto;
+        animation: slide 2s infinite
+      }
+      @keyframes slide{
+         25%{
+           background: url('https://www.hartz.com/wp-content/uploads/2016/12/3270098059_hartz_just_for_cats_kitty_frenzy_cat_toy_life_650x650.png');
+         }
+         50%{
+           background: url('https://images-na.ssl-images-amazon.com/images/I/81fZ%2BfJOHPL._AC_SY355_.jpg');
+         }
+         75%{
+           background: url('https://www.dhresource.com/0x0/f2/albu/g9/M00/9C/B0/rBVaWFwZuyOAbm8dAAGZKAv_HRI104.jpg');
+         }
+         100%{
+           background: url('https://ae01.alicdn.com/kf/HTB1F_WlcGmgSKJjSsplq6yICpXaE/Arch-Pet-Cat-Self-Groomer-With-Round-Fleece-Base-Cat-Toy-Brush-Toys-For-Pets-Scratching.jpg');
+         }
+}
+         .vacation{
+           display: flex;
+           width: 100vh;
+           height: 75vh;
+           background: url('https://www.libertytravel.com/sites/default/files/styles/full_size/public/luxury-hero%20%281%29.jpg?itok=eHbThPZQ');
+           margin: 100px auto;
+           animation: slide 2s infinite
+         }
+         @keyframes slide{
+            25%{
+              background: url('https://www.libertytravel.com/sites/default/files/styles/full_size/public/luxury-hero%20%281%29.jpg?itok=eHbThPZQ');
+            }
+            50%{
+              background: url('https://www.jetsetter.com/uploads/sites/7/2018/04/c1tkXg5q-1380x1035.jpeg');
+            }
+            75%{
+              background: url('https://www.jetsetter.com/uploads/sites/7/2018/04/TToEelyJ-1380x1035.jpeg');
+            }
+            100%{
+              background: url('https://cdn.sandals.com/sandals/v12/images/resorts/sbd/home/main-slider/pool-with-swim-up-bar-beach.jpg');
+            }
+}
+            .oscar{
+              display: flex;
+              width: 100vh;
+              height: 75vh;
+              background: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2020/01/09161409/46d9d8c585f16e695cd7808bce37ec961dc56e720b3404be4c7d82422c6e5231.jpg');
+              margin: 100px auto;
+              animation: slide 2s infinite
+            }
+            @keyframes slide{
+               25%{
+                 background: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2020/01/09161409/46d9d8c585f16e695cd7808bce37ec961dc56e720b3404be4c7d82422c6e5231.jpg');
+               }
+               50%{
+                 background: url('https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_.jpg');
+               }
+               75%{
+                 background: url('https://www.trentarthur.ca/wp-content/uploads/2019/02/Green-Book-2018-Poster-HD-.jpg');
+               }
+               100%{
+                 background: url('https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UY1200_CR90,0,630,1200_AL_.jpg');
+               }
+}
+               .laughing{
+                 display: flex;
+                 width: 100vh;
+                 height: 75vh;
+                 background: url('https://i.ytimg.com/vi/Q1BKjMSkGy4/maxresdefault.jpg');
+                 margin: 100px auto;
+                 animation: slide 2s infinite
+               }
+               @keyframes slide{
+                  25%{
+                    background: url('https://i.ytimg.com/vi/Q1BKjMSkGy4/maxresdefault.jpg');
+                  }
+                  50%{
+                    background: url('https://i.pinimg.com/originals/1f/a8/c4/1fa8c42cb9d456a86ffe51c95f09fb9b.jpg');
+                  }
+                  75%{
+                    background: url('https://tedideas.files.wordpress.com/2019/06/featured_art_istock_baby.jpg');
+                  }
+                  100%{
+                    background: url('https://ichef.bbci.co.uk/wwfeatures/live/976_549/images/live/p0/2y/7j/p02y7jyt.jpg');
+                  }
+}
+                  .electric{
+                    display: flex;
+                    width: 100vh;
+                    height: 75vh;
+                    background: url('https://article.images.consumerreports.org/f_auto/prod/content/dam/CRO%20Images%202019/Cars/December/CR-Cars-InlineHero-Ford-Mustang-Mach-E-Night-12-19');
+                    margin: 100px auto;
+                    animation: slide 2s infinite
+                  }
+                  @keyframes slide{
+                     25%{
+                       background: url('https://article.images.consumerreports.org/f_auto/prod/content/dam/CRO%20Images%202019/Cars/December/CR-Cars-InlineHero-Ford-Mustang-Mach-E-Night-12-19');
+                     }
+                     50%{
+                       background: url('https://cdn.theatlantic.com/thumbor/Api9Z0i14pPlHGD_XS3WiYCxwgc=/0x132:6405x3734/720x405/media/img/mt/2019/06/AP_18212620286257/original.jpg');
+                     }
+                     75%{
+                       background: url('https://specials-images.forbesimg.com/imageserve/1140760630/960x0.jpg?fit=scale');
+                     }
+                     100%{
+                       background: url('https://cdn1.carbuyer.co.uk/sites/carbuyer_d7/files/2017/11/tesla-roadster-1_0.jpg');
+                     }
+}
+                     .coffee{
+                       display: flex;
+                       width: 100vh;
+                       height: 75vh;
+                       background: url('https://perfectdailygrind.com/wp-content/uploads/2019/11/Coffeeshop-Tips-06.jpg');
+                       margin: 100px auto;
+                       animation: slide 2s infinite
+                     }
+                     @keyframes slide{
+                        25%{
+                          background: url('https://perfectdailygrind.com/wp-content/uploads/2019/11/Coffeeshop-Tips-06.jpg');
+                        }
+                        50%{
+                          background: url('https://cdn.vox-cdn.com/thumbor/z2Oc0Qtvm3Iu1WoHOgohXbX1Ncc=/0x0:5860x4008/1200x800/filters:focal(3075x2118:4011x3054)/cdn.vox-cdn.com/uploads/chorus_image/image/66490225/shutterstock_1410002591.0.jpg');
+                        }
+                        75%{
+                          background: url('https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F41543080%2F960x0.jpg%3Ffit%3Dscale');
+                        }
+                        100%{
+                          background: url('https://3u8dbs16f2emlqxkbc8tbvgf-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/Coffee-bean-Tea-Leaf-Logo-Cups.jpg');
+}                        }
+                        .global{
+                          display: flex;
+                          width: 100vh;
+                          height: 75vh;
+                          background: url('https://img.etimg.com/thumb/width-640,height-480,imgsize-653036,resizemode-1,msid-66862392/why-global-warming-is-so-harmful-for-your-heart-and-kidneys.jpg');
+                          margin: 100px auto;
+                          animation: slide 2s infinite
+                        }
+                        @keyframes slide{
+                           25%{
+                             background: url('https://img.etimg.com/thumb/width-640,height-480,imgsize-653036,resizemode-1,msid-66862392/why-global-warming-is-so-harmful-for-your-heart-and-kidneys.jpg');
+                           }
+                           50%{
+                             background: url('https://api.timeforkids.com/wp-content/uploads/2018/08/GlobalWarming-HERO.jpg');
+                           }
+                           75%{
+                             background: url('https://media1.s-nbcnews.com/j/newscms/2018_31/2514836/180730-greece-fire-ac-1047p_0be348122af0101e78d01be33ba2c127.fit-760w.jpg');
+                           }
+                           100%{
+                             background: url('https://media2.s-nbcnews.com/i/newscms/2018_41/2597866/181009-german-power-plant-ew-946a_3a8cb6532a691d7ce04064d09c1dac80.jpg');
+                           }
